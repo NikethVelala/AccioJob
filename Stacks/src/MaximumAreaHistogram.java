@@ -1,5 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
+//3
 import java.util.Scanner;
 
 public class MaximumAreaHistogram {

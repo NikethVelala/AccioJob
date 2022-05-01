@@ -3,9 +3,7 @@ import java.io.*;
 
 class GfG
 {
-    // Function returns the
-    // minimum number of swaps
-    // required to sort the array
+    // Function returns the minimum number of swaps required to sort the array
     public static int minSwaps(int[] nums)
     {
         int len = nums.length;

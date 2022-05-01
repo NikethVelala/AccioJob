@@ -5,10 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/AccioJob.iml" filepath="$PROJECT_DIR$/AccioJob.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" filepath="$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FIleOperations/FIleOperations.iml" filepath="$PROJECT_DIR$/FIleOperations/FIleOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java 8/Java 8.iml" filepath="$PROJECT_DIR$/Java 8/Java 8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sliding Window/Sliding Window.iml" filepath="$PROJECT_DIR$/Sliding Window/Sliding Window.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>

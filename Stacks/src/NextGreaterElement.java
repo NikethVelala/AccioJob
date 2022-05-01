@@ -1,5 +1,5 @@
+//1
 import java.util.Scanner;
-
 public class NextGreaterElement {
     public static class Node{
         int val;
