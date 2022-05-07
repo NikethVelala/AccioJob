@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccioJob.iml" filepath="$PROJECT_DIR$/AccioJob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApachePOI/ApachePOI.iml" filepath="$PROJECT_DIR$/ApachePOI/ApachePOI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BST/BST.iml" filepath="$PROJECT_DIR$/BST/BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
       <module fileurl="file://$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" filepath="$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" />
       <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
       <module fileurl="file://$PROJECT_DIR$/FIleOperations/FIleOperations.iml" filepath="$PROJECT_DIR$/FIleOperations/FIleOperations.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java 8/Java 8.iml" filepath="$PROJECT_DIR$/Java 8/Java 8.iml" />
