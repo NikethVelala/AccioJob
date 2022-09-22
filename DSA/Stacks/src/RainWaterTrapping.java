@@ -19,6 +19,7 @@ public class RainWaterTrapping {
             if(max<a[i]) max=a[i];
             left[i]=max;
         }
+        max=Integer.MIN_VALUE;
         for(int i=n-1;i>-1;i--){
             if(max<a[i]) max=a[i];
             right[i]=max;

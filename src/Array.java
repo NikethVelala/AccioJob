@@ -1,7 +1,9 @@
+import java.util.HashMap;
 import java.util.Stack;
 
 public class Array {
     public static void main(String[] args) {
+        HashMap<Character,Integer> map=new HashMap<>();
         String s="/home//foo/";
         String[] split = s.split("/");
         Stack<String> stack = new Stack<>();

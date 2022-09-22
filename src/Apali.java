@@ -12,7 +12,7 @@ class Minii{
         else if(dis<=18 && dis>3){
             total = 50 + (dis-3)* 10;
         }
-        else if(dis<=75 && dis>15){
+        else if(dis<=75 && dis>15)  {
             total = 200 + (dis-18)*8;
         }
 

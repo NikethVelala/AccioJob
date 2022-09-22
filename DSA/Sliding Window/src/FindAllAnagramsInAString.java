@@ -1,13 +1,13 @@
 import java.util.*;
 /*
+https://leetcode.com/problems/find-all-anagrams-in-a-string/
 Input: s = "cbaebabacd", p = "abc"
 Output: [0,6]
 */
 
 public class FindAllAnagramsInAString {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        String s=sc.next(),p= sc.next();
+        String s="cbaebabacd",p= "abc" ;
         List<Integer> anagrams = findAnagrams(s, p);
         for(int i:anagrams)
             System.out.print(i+" ");

@@ -12,15 +12,14 @@ import java.util.Iterator;
 public class ReadingExcel {
     public static void main(String[] args) throws IOException {
         /* .\\ is representing the current project location*/
-        String excelFilePath="C:/Users/velal/OneDrive/Desktop/Sample.xlsx";
+        String excelFilePath = "C:/Users/velal/OneDrive/Desktop/Sample.xlsx";
         FileInputStream inputStream = new FileInputStream(excelFilePath);
 
         XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
-        XSSFSheet sheet=workbook.getSheet("kingdoms");
+        XSSFSheet sheet = workbook.getSheet("kingdoms");
         //or workbook.getSheetAt(0);
 
         //Using for loop
-
         /*int rows= sheet.getLastRowNum();
         int cols = sheet.getRow(1).getLastCellNum();
 
@@ -45,21 +44,21 @@ public class ReadingExcel {
 
         /// Iterator approach (easy one)
 
-        Iterator iterator =sheet.iterator();
-        while(iterator.hasNext()){
+        Iterator iterator = sheet.iterator();
+        while (iterator.hasNext()) {
             XSSFRow row = (XSSFRow) iterator.next();
             Iterator cellIterator = row.cellIterator();
-            while(cellIterator.hasNext()){
+            while (cellIterator.hasNext()) {
                 XSSFCell cell = (XSSFCell) cellIterator.next();
-                switch(cell.getCellType()){
+                switch (cell.getCellType()) {
                     case STRING:
-                        System.out.print(cell.getStringCellValue()+" ");
+                        System.out.print(cell.getStringCellValue() + " ");
                         break;
                     case NUMERIC:
-                        System.out.print(cell.getNumericCellValue()+" ");
+                        System.out.print(cell.getNumericCellValue() + " ");
                         break;
                     case BOOLEAN:
-                        System.out.println(cell.getBooleanCellValue()+" ");
+                        System.out.println(cell.getBooleanCellValue() + " ");
                         break;
                 }
             }

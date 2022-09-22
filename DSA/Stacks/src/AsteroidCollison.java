@@ -1,6 +1,4 @@
-import java.util.Scanner;
-import java.util.Stack;
-
+import java.util.*;
 public class AsteroidCollison {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -13,27 +11,13 @@ public class AsteroidCollison {
     }
 
     public static int[] asteroidCollison(int[] a) {
-        Stack<Integer> stack=new Stack<>();
-        for (int j : a) {
-            if (!stack.isEmpty()) {
-                if (j < 0) {
-                    while (!stack.isEmpty() &&stack.peek()>0&& stack.peek() < Math.abs(j))
-                        stack.pop();
-                    if (!stack.isEmpty()) {
-                        if (stack.peek() == Math.abs(j)) stack.pop();
-                    }else {
-                        stack.push(j);
-                    }
-                }else {
-                    stack.push(j);
-                }
-            } else {
-                stack.push(j);
-            }
+        LinkedList<Integer> s = new LinkedList<>(); // use LinkedList to simulate stack so that we don't need to reverse at end.
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] > 0 || s.isEmpty() || s.getLast() < 0)
+                s.add(a[i]);
+            else if (s.getLast() <= -a[i])
+                if (s.pollLast() < -a[i]) i--;
         }
-        int b[]=new int[stack.size()];
-        for(int i=stack.size()-1;i>=0;i--)
-            b[i]=stack.pop();
-        return b;
+        return s.stream().mapToInt(i->i).toArray();
     }
 }

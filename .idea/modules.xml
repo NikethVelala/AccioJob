@@ -4,17 +4,27 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AccioJob.iml" filepath="$PROJECT_DIR$/AccioJob.iml" />
       <module fileurl="file://$PROJECT_DIR$/ApachePOI/ApachePOI.iml" filepath="$PROJECT_DIR$/ApachePOI/ApachePOI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BST/BST.iml" filepath="$PROJECT_DIR$/BST/BST.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/BackTracking/BackTracking.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" filepath="$PROJECT_DIR$/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/Binary Search/Binary Search.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DP/DP.iml" filepath="$PROJECT_DIR$/DP/DP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FIleOperations/FIleOperations.iml" filepath="$PROJECT_DIR$/FIleOperations/FIleOperations.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/BST/BST.iml" filepath="$PROJECT_DIR$/DSA/BST/BST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/BackTracking/BackTracking.iml" filepath="$PROJECT_DIR$/DSA/BackTracking/BackTracking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" filepath="$PROJECT_DIR$/DSA/Basics, Arrays &amp; String/Basics, Arrays &amp; String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Binary Search/Binary Search.iml" filepath="$PROJECT_DIR$/DSA/Binary Search/Binary Search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Concepts/Comparable and Comparator/Comparable and Comparator.iml" filepath="$PROJECT_DIR$/Java Concepts/Comparable and Comparator/Comparable and Comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DP/DP.iml" filepath="$PROJECT_DIR$/DSA/DP/DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Concepts/Exception Handling/Exception Handling.iml" filepath="$PROJECT_DIR$/Java Concepts/Exception Handling/Exception Handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileOperations/FIleOperations.iml" filepath="$PROJECT_DIR$/FileOperations/FIleOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DP/GFG DP/GFG DP.iml" filepath="$PROJECT_DIR$/DSA/DP/GFG DP/GFG DP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/DSA/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Heap/Heap.iml" filepath="$PROJECT_DIR$/DSA/Heap/Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java 8/Java 8.iml" filepath="$PROJECT_DIR$/Java 8/Java 8.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Sliding Window/Sliding Window.iml" filepath="$PROJECT_DIR$/Sliding Window/Sliding Window.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/Stacks/Stacks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Concepts/Java Concepts.iml" filepath="$PROJECT_DIR$/Java Concepts/Java Concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/DSA/Matrix/Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Sliding Window/Sliding Window and Prefix Sum.iml" filepath="$PROJECT_DIR$/DSA/Sliding Window/Sliding Window and Prefix Sum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Sortings/Sortings.iml" filepath="$PROJECT_DIR$/DSA/Sortings/Sortings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Stacks/Stacks.iml" filepath="$PROJECT_DIR$/DSA/Stacks/Stacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Basics, Arrays &amp; String/String/String.iml" filepath="$PROJECT_DIR$/DSA/Basics, Arrays &amp; String/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Concepts/Threads/Threads.iml" filepath="$PROJECT_DIR$/Java Concepts/Threads/Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/data structures.iml" filepath="$PROJECT_DIR$/DSA/data structures.iml" />
     </modules>
   </component>
 </project>
